@@ -3,6 +3,11 @@
     "displayName": "Select Line Range",
     "description": "Select a range of lines, or select from the current line to the Nth line.",
     "author": "Stephan Casas <stephancasas@icloud.com>",
+    "publisher": "StephanCasas",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/stephancasas/vscode-select-line-range"
+    },
     "version": "0.0.1",
     "engines": {
         "vscode": "^1.64.0"
@@ -11,7 +16,7 @@
         "Other"
     ],
     "activationEvents": [
-        "*"
+        "onCommand:select-line-range.selectLineRange"
     ],
     "main": "./extension.js",
     "contributes": {
